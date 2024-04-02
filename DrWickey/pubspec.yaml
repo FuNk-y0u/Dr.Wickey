@@ -1,0 +1,41 @@
+name: route_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  bottom_drawer: ^0.0.5
+  flutter:
+    sdk: flutter
+  flutter_client_sse: ^2.0.1
+  flutter_tts: ^3.8.5
+  http: ^1.2.0
+  intl: ^0.19.0
+  lottie: ^3.1.0
+  permission_handler: ^11.2.0
+  speech_to_text: ^6.6.1
+  text_scroll: ^0.2.0
+  universal_html: ^2.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/normal.png
+    - assets/images/alt.png
+    - assets/images/angry.png
+    - assets/images/fear.png
+    - assets/images/thinking.png
+    - assets/images/happy.png
+fonts:
+  - family: Poppins
+    fonts:
+      - asset: fonts/Poppins-Regular.ttf
+      - asset: fonts/Poppins-Bold.ttf
